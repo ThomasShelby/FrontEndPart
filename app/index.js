@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
 require('./index.css');
-var Output = require('../components/Output');
+var Home = require('../components/home/Home');
 
 //state
 //lifecycle
@@ -10,7 +10,7 @@ var Output = require('../components/Output');
 class App extends React.Component {
     render() {
         return (
-            <Output output="Hello world"/>
+            <Home />
         )
     }
 }
