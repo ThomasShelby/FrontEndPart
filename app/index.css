@@ -8,3 +8,7 @@
 .carousel-inner > .item > img {
     width: 100%;
 }
+
+.navbar {
+    border-radius: 0 0 0 0;
+}
