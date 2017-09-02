@@ -1,7 +1,7 @@
 var React = require('react');
 var ReactDOM = require('react-dom');
-require('./index.css');
-var Home = require('../components/home/Home');
+import MainStyle from 'MainStyle';
+import Home from 'Home';
 
 class App extends React.Component {
     render() {

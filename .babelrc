@@ -1,0 +1,24 @@
+{
+  "presets": ["es2015", "react", "stage-2"],
+  "plugins": [
+    "react-require",
+    ["module-resolver", {
+      "root": ["./"],
+      "alias": {
+
+        //Carousel
+        "Carousel": "./components/home/carousel/Carousel.jsx",
+        "Footer": "./components/home/footer/Footer.jsx",
+        "Header": "./components/home/header/Header.jsx",
+        "Product": "./components/home/product/Product.jsx",
+        "Home": "./components/home/Home.jsx",
+
+        // Rest API
+        "ProductClient": "./rest/ProductClient.jsx",
+
+        // Styles
+        "MainStyle": "./app/index.css"
+      }
+    }]
+  ]
+}
