@@ -1,7 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React, {Component} from 'react';
 
-class Footer extends React.Component {
+class Footer extends Component {
     render () {
         return (
             <footer className="container-fluid text-center">

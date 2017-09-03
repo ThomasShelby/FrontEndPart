@@ -1,7 +1,6 @@
-var React = require('react');
-var ReactDOM = require('react-dom');
+import React, {Component} from 'react';
 
-class Product extends React.Component {
+class Product extends Component {
     render() {
         return (
             <div>

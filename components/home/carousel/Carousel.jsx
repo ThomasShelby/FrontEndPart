@@ -1,6 +1,6 @@
-var React = require('react');
+import React, {Component} from 'react';
 
-class Carousel extends React.Component {
+class Carousel extends Component {
     render() {
         return (
             <div id="productCarousel" className="carousel slide" data-ride="carousel">

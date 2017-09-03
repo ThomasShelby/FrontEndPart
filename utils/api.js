@@ -1,4 +1,4 @@
-var axios = require('axios');
+import axios from "axios";
 
 var getDevelopersURL = "https://api.myjson.com/bins/9xu4z";
 
