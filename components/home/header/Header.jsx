@@ -1,10 +1,11 @@
 import React, {Component} from 'react';
+import FixedHeaderStyle from 'FixedHeaderStyle';
 
 class Header extends Component {
     render () {
         return (
             <div>
-                <nav className="navbar navbar-inverse">
+                <nav className="navbar navbar-inverse" data-spy="affix" data-offset-top="450">
                     <div className="container-fluid">
                         <div className="navbar-header">
                             <a className="navbar-brand" href="#">Elect</a>

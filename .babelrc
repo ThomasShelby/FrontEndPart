@@ -17,7 +17,8 @@
         "ProductClient": "./rest/ProductClient.jsx",
 
         // Styles
-        "MainStyle": "./app/index.css"
+        "MainStyle": "./app/index.css",
+        "FixedHeaderStyle": "./styles/fixedHeader.css"
       }
     }]
   ]
