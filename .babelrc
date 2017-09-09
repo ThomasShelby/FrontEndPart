@@ -7,7 +7,7 @@
       "alias": {
 
         //Carousel
-        "Carousel": "./components/home/carousel/Carousel.jsx",
+        "MainCarousel": "./components/home/carousel/MainCarousel.jsx",
         "Footer": "./components/home/footer/Footer.jsx",
         "Header": "./components/home/header/Header.jsx",
         "Product": "./components/home/product/Product.jsx",
